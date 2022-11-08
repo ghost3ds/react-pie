@@ -1,0 +1,116 @@
+.card__grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+.card__container {
+  max-width: 370px;
+  border-radius: 5px;
+  padding-left: 20px;
+
+  .card__title {
+    font-family: $body-font;
+    font-weight: bold;
+    padding-bottom: 30px;
+    text-align: center;
+  }
+
+  .card__options {
+    background-color: #d9d9d9;
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    margin: 0 auto;
+
+    ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 34px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+
+      li {
+        width: 70px;
+        height: 30px;
+        font-family: $body-font;
+        font-size: 14px;
+        text-decoration: none;
+        list-style-type: none;
+        line-height: 30px;
+        text-align: center;
+        border-radius: 5px;
+      }
+
+      .card__options__text:active {
+        background-color: #fff;
+      }
+    }
+  }
+
+  .card__price {
+    display: flex;
+    justify-content: space-between;
+    max-width: 300px;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding-bottom: 50px;
+
+    .card__price__amount {
+      font-family: $body-font;
+      font-size: 24px;
+      font-weight: 500;
+      padding-left: 8px;
+      padding-right: 4px;
+    }
+
+    .card__btn {
+      display: flex;
+      justify-content: space-between;
+      width: 150px;
+      height: 40px;
+      border-color: #ffac40;
+    }
+
+    button {
+      border: 1px solid #ffac40;
+      background-image: url(../../public/img/plus.svg);
+      background-color: #fff;
+      background-repeat: no-repeat;
+      background-size: 16px;
+      transition: all ease 0.3s;
+      border-width: 3px;
+      background-position: 6% center;
+      padding-left: 10px;
+      width: 150px;
+      height: 40px;
+      border-radius: 28px;
+      font-size: 16px;
+      font-family: $body-font;
+      text-align: center;
+      cursor: pointer;
+
+      .card__amount {
+        display: inline-block;
+        width: 17px;
+        height: 17px;
+        background-color: #ffac40;
+        border-radius: 50%;
+        font-size: 14px;
+        line-height: 14px;
+        text-align: center;
+        font-family: $body-font;
+        margin-left: 5px;
+      }
+    }
+
+    button:hover {
+      background-color: #ffac40;
+    }
+  }
+}

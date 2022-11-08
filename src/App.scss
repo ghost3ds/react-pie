@@ -1,0 +1,48 @@
+@import-normalize;
+@import './scss/variables';
+@import './scss/header';
+@import './scss/menu';
+@import './scss/card';
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+html {
+  background-color: $background_main;
+}
+
+body {
+  background-color: $background_main;
+  font-family: $body-font;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+h1,
+h2,
+h3,
+p,
+span {
+  font-family: $headline-font;
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper {
+  width: calc(100% - 100px);
+  height: 100%;
+  background-color: $background_color;
+  margin: 50px auto;
+  border-radius: 10px;
+}
+
+.container {
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

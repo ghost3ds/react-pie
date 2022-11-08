@@ -1,0 +1,30 @@
+header {
+  border-bottom: 1px solid #dfdfdf;
+  padding: 30px 0;
+
+  .header_logo {
+    display: flex;
+    align-items: center;
+
+    img {
+      margin-right: 20px;
+      padding-top: 10px;
+    }
+  }
+  .header_right {
+    background-color: #ffac40;
+    color: #fff;
+    width: 160px;
+    height: 56px;
+    border-radius: 28px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 56px;
+
+    .react-icon {
+      margin-left: 30px;
+      margin-right: 5px;
+    }
+  }
+}

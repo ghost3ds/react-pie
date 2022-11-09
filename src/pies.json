@@ -1,0 +1,83 @@
+[
+  {
+    "id": 0,
+    "imageUrl": "https://thumb.tildacdn.com/tild3132-3935-4530-b137-396535386334/-/format/webp/amsterdam_pie_1.jpg",
+    "title": "Амстердамский пирог",
+    "sizes": [300, 600, 900],
+    "price": 295,
+    "category": 1,
+    "rating": 4
+  },
+  {
+    "id": 1,
+    "imageUrl": "https://thumb.tildacdn.com/tild3862-3735-4463-b961-353539376137/-/resize/720x/-/format/webp/siberian_russian_pie.jpg",
+    "title": "Сибирский пирог",
+    "sizes": [300, 600, 900],
+    "price": 315,
+    "category": 5,
+    "rating": 2
+  },
+  {
+    "id": 2,
+    "imageUrl": "https://thumb.tildacdn.com/tild3764-3435-4238-b639-323135383763/-/format/webp/irish_pie_1.jpg",
+    "title": "Ирландский пирог",
+    "sizes": [300, 600, 900],
+    "price": 475,
+    "category": 3,
+    "rating": 3
+  },
+  {
+    "id": 3,
+    "imageUrl": "https://thumb.tildacdn.com/tild3735-3738-4138-b264-306439646433/-/resize/720x/-/format/webp/belarusian_pie_1.jpg",
+    "title": "Белорусский пирог",
+    "sizes": [300, 600, 900],
+    "price": 420,
+    "category": 5,
+    "rating": 5
+  },
+  {
+    "id": 4,
+    "imageUrl": "https://thumb.tildacdn.com/tild3939-6535-4635-a131-323130653332/-/resize/720x/-/format/webp/munich_pie_1.jpg",
+    "title": "Мюнхенский пирог",
+    "sizes": [300, 600, 900],
+    "price": 550,
+    "category": 2,
+    "rating": 1
+  },
+  {
+    "id": 5,
+    "imageUrl": "https://thumb.tildacdn.com/tild6235-3762-4065-a439-383636646536/-/format/webp/brussels_pie_1.jpg",
+    "title": "Брюссельский пирог",
+    "sizes": [300, 600, 900],
+    "price": 380,
+    "category": 4,
+    "rating": 4
+  },
+  {
+    "id": 6,
+    "imageUrl": "https://thumb.tildacdn.com/tild3434-3535-4166-b030-643565646164/-/format/webp/german_zwiebelkuchen.jpg",
+    "title": "Немецкий пирог",
+    "sizes": [300, 600, 900],
+    "price": 390,
+    "category": 4,
+    "rating": 2
+  },
+  {
+    "id": 7,
+    "imageUrl": "https://thumb.tildacdn.com/tild3335-6665-4361-b333-303261333566/-/format/webp/quiche_lorraine_1.jpg",
+    "title": "Лоранский пирог",
+    "sizes": [300, 600, 900],
+    "price": 490,
+    "category": 2,
+    "rating": 3
+  },
+  {
+    "id": 8,
+    "imageUrl": "https://ibb.co/MMwDJMc",
+    "title": "Норвежский пирог",
+    "sizes": [300, 600, 900],
+    "price": 600,
+    "category": 2,
+    "rating": 5
+  }
+]

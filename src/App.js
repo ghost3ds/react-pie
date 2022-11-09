@@ -18,16 +18,15 @@ function App() {
       <h2 className="category__title">Все пироги</h2>
       {/* Карточки */}
       <div className="card__grid">
-        <PieBlock />
-        <PieBlock />
-        <PieBlock />
-        <PieBlock />
-        <PieBlock />
-        <PieBlock />
-        <PieBlock />
-        <PieBlock />
-        <PieBlock />
-        <PieBlock />
+        <PieBlock title="Амстердамский пирог" price="395" />
+        <PieBlock title="Сибирский пирог" price="395" />
+        <PieBlock title="Ирландский пирог" price="395" />
+        <PieBlock title="Белорусский пирог" price="395" />
+        <PieBlock title="Мюнхенский пирог" price="395" />
+        <PieBlock title="Греческий пирог" price="395" />
+        <PieBlock title="Немецкий пирог" price="395" />
+        <PieBlock title="Лоранский пирог" price="395" />
+        <PieBlock title="Норвежский пирог" price="395" />
       </div>
     </div>
   );

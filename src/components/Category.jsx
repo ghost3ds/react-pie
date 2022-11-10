@@ -1,39 +1,22 @@
 import React from 'react';
+import { useState } from 'react';
 
 function Category() {
+  const [active, setActive] = useState(3);
+  const onClickCategory = (index) => {
+    setActive(index);
+  };
+
+  const pies = ['Все', 'Осетинские', 'Мясные', 'Закрытые', 'Сытные', 'Русские'];
+
   return (
     <div className="nav__category">
       <ul className="nav__list">
-        <li className="nav__item item-all">
-          <a href="" className="nav__item__link">
-            Все
-          </a>
-        </li>
-        <li className="nav__item">
-          <a href="" className="nav__item__link">
-            Осетинские
-          </a>
-        </li>
-        <li className="nav__item">
-          <a href="" className="nav__item__link">
-            Мясные
-          </a>
-        </li>
-        <li className="nav__item">
-          <a href="" className="nav__item__link">
-            Закрытые
-          </a>
-        </li>
-        <li className="nav__item">
-          <a href="" className="nav__item__link">
-            Сытные
-          </a>
-        </li>
-        <li className="nav__item">
-          <a href="" className="nav__item__link">
-            Русские
-          </a>
-        </li>
+        {pies.map((value, i) => (
+          <li key={i} onClick={() => onClickCategory(i)} className={active === i ? 'active' : ''}>
+            {value}
+          </li>
+        ))}
       </ul>
     </div>
   );

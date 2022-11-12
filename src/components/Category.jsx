@@ -2,7 +2,7 @@ import React from 'react';
 import { useState } from 'react';
 
 function Category() {
-  const [active, setActive] = useState(3);
+  const [active, setActive] = useState(0);
   const onClickCategory = (index) => {
     setActive(index);
   };

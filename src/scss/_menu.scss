@@ -40,41 +40,38 @@
 
 .nav__sort {
   position: relative;
+  width: 170px;
+  span {
+    font-family: $body-font;
+    cursor: pointer;
+  }
 }
 
-.nav__sort__link {
-  color: #000;
-  text-decoration: none;
-  font-weight: 500;
-}
-.nav__sort__link:hover {
-  color: lighten($color: #000000, $amount: 50);
-  text-decoration: none;
-  font-weight: 500;
-}
-
-.nav__sort__link:active {
+.activeSort {
   color: #ffac40;
   border-bottom: 1px dashed #ffac40;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .nav__sort__popup {
-  opacity: 1;
-  width: 148px;
   position: absolute;
+  opacity: 1;
+  width: 158px;
+
   right: 0;
   margin-top: 20px;
 
   ul {
     list-style-type: none;
+    background-color: #f4f3f3;
     li {
-      background-color: #f4f3f3;
-    }
-  }
+      cursor: pointer;
+      margin-bottom: 20px;
 
-  .nav__sort__item {
-    padding-bottom: 20px;
+      &:hover {
+        background-color: darken($color: #f4f3f3, $amount: 3);
+      }
+    }
   }
 }
 h2.category__title {

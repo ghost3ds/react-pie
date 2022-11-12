@@ -48,9 +48,14 @@
         line-height: 30px;
         text-align: center;
         border-radius: 5px;
+        cursor: pointer;
       }
 
-      .card__options__text:active {
+      // .card__options__text:active {
+      //   background-color: #fff;
+      // }
+
+      .active {
         background-color: #fff;
       }
     }

@@ -1,20 +1,27 @@
 import React, { useState } from 'react';
 
-function PieBlock({ title, price }) {
+function PieBlock({ title, price, imageUrl, sizes }) {
   const [count, setCount] = useState(0);
+  const [activeSize, setActiveSize] = useState(0);
   const onClickAdd = () => setCount(count + 1);
 
   return (
     <div className="card__container">
       <div className="card__img">
-        <img src="./img/1.jpg" alt="pie"></img>
+        <img src={imageUrl} alt="pie"></img>
       </div>
       <h2 className="card__title">{title}</h2>
       <div className="card__options">
         <ul>
-          <li className="card__options__text">300 гр.</li>
-          <li className="card__options__text">600 гр.</li>
-          <li className="card__options__text">900 гр.</li>
+          {sizes.map((size, i) => (
+            <li
+              key={i}
+              onClick={() => setActiveSize(i)}
+              className={activeSize === i ? 'active' : ''}
+            >
+              {size} гр.
+            </li>
+          ))}
         </ul>
       </div>
       <div className="card__price">

@@ -66,14 +66,14 @@
     "id": 7,
     "imageUrl": "https://thumb.tildacdn.com/tild3335-6665-4361-b333-303261333566/-/format/webp/quiche_lorraine_1.jpg",
     "title": "Лоранский пирог",
-    "sizes": [300, 600, 900],
+    "sizes": [300, 900],
     "price": 490,
     "category": 2,
     "rating": 3
   },
   {
     "id": 8,
-    "imageUrl": "https://ibb.co/MMwDJMc",
+    "imageUrl": "https://thumb.tildacdn.com/tild3931-6533-4436-b731-326335626230/-/format/webp/norwegian_quiche_1.jpg",
     "title": "Норвежский пирог",
     "sizes": [300, 600, 900],
     "price": 600,

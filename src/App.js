@@ -10,6 +10,7 @@ function App() {
   return (
     <div className="wrapper">
       <Header />
+      lalala
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/cart.html" element={<Cart />} />

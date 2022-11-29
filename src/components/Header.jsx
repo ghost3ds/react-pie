@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { AiOutlineShoppingCart } from 'react-icons/ai';
 import { IconContext } from 'react-icons';
+import logo from '../assets/logo_pie.svg';
 
 function Header() {
   return (
@@ -9,7 +10,7 @@ function Header() {
       <div className="container">
         <Link to="/">
           <div className="header_logo">
-            <img src="./img/logo_pie.svg" alt="logo" />
+            <img src={logo} alt="logo" />
             <div>
               <h1>REACT PIE</h1>
               <p>лучшие пироги во всем мире</p>
